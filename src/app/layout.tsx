@@ -15,10 +15,11 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Gabriel Sandu | Senior Full Stack Engineer",
   description:
-    "Portfolio of Gabriel Sandu — Senior Full Stack Engineer specializing in scalable web applications, cloud infrastructure, and AI-powered solutions.",
+    "Portfolio of Gabriel Sandu — Senior Full Stack Engineer with 12+ years building scalable web applications, cloud infrastructure, and AI-powered solutions.",
   keywords: [
     "Gabriel Sandu",
     "Full Stack Engineer",
+    "AI Engineer",
     "React",
     "Node.js",
     "TypeScript",
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Gabriel Sandu | Senior Full Stack Engineer",
     description:
-      "Senior Full-Stack Engineer building scalable applications, cloud infrastructure, and AI solutions.",
+      "Senior Full-Stack & AI Engineer with 12+ years building scalable applications, cloud infrastructure, and AI solutions.",
     type: "website",
   },
 };

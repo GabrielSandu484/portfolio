@@ -52,7 +52,7 @@ export function About() {
                 Global Experience
               </h4>
               <div className="flex flex-wrap gap-2">
-                {["USA", "Spain", "Sweden", "Remote"].map((loc) => (
+                {["USA", "Spain", "Sweden", "Romania", "Remote"].map((loc) => (
                   <span
                     key={loc}
                     className="rounded-full border border-border px-3 py-1 text-xs text-text-muted"

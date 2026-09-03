@@ -15,19 +15,42 @@ export function Contact() {
           <h3 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4">
             Let&apos;s build something together
           </h3>
-          <p className="text-text-muted max-w-xl mx-auto mb-8">
+          <p className="text-text-muted max-w-xl mx-auto mb-2">
             Open to discussing new opportunities, collaborations, and
             challenging engineering projects.
+          </p>
+          <p className="text-sm text-text-muted mb-8">
+            {profile.location}
+            {" · "}
+            <a
+              href={`mailto:${profile.email}`}
+              className="hover:text-accent transition-colors"
+            >
+              {profile.email}
+            </a>
+            {" · "}
+            <a
+              href={`tel:${profile.phone.replace(/\s/g, "")}`}
+              className="hover:text-accent transition-colors"
+            >
+              {profile.phone}
+            </a>
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
             <a
+              href={`mailto:${profile.email}`}
+              className="rounded-full bg-accent px-8 py-3 text-sm font-semibold text-background hover:bg-accent-light transition-all hover:scale-105"
+            >
+              Email Me
+            </a>
+            <a
               href={profile.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full bg-accent px-8 py-3 text-sm font-semibold text-background hover:bg-accent-light transition-all hover:scale-105"
+              className="rounded-full border border-border px-8 py-3 text-sm font-semibold text-text hover:border-accent hover:text-accent transition-all"
             >
-              Connect on LinkedIn
+              LinkedIn
             </a>
             <a
               href={profile.github}
@@ -35,7 +58,7 @@ export function Contact() {
               rel="noopener noreferrer"
               className="rounded-full border border-border px-8 py-3 text-sm font-semibold text-text hover:border-accent hover:text-accent transition-all"
             >
-              View GitHub
+              GitHub
             </a>
           </div>
         </div>

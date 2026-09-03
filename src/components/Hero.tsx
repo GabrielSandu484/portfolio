@@ -71,7 +71,7 @@ export function Hero() {
 
         <div className="mt-20 grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-2xl">
           {[
-            { label: "Years Experience", value: "10+" },
+            { label: "Years Experience", value: "12+" },
             { label: "Countries", value: "4" },
             { label: "Tech Stack", value: "30+" },
             { label: "Focus", value: "Full Stack" },
